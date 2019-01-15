@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friendfinder</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <h1>Survey Questions:</h1>
+    <div id="about-you">
+        <h2>About You</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name</label><br />
+            <input type="text" id="name" name="name" placeholder="Type name here" required="required"><br />
+            <br />
+            <label for="photo">Link to Photo Image (Required)</label><br />
+            <input type="file" name="photo" accept="image/*"><br />
+            <br />
+            <label for="question1">Q1: Do you enjoy italian food?</label></br />
+            <select id="question1" name="question1">
+                <option value="" disabled selected>Select your option</option>
+                <option value="1">1 (not at all)</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5 (as often as possible)</option>
+            </select><br />
+            <br />
+            <label for="question2">Q2: Do you enjoy mexican food?</label></br />
+            <select id="question2" name="question1">
+                <option value="" disabled selected>Select your option</option>
+                <option value="1">1 (not at all)</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5 (as often as possible)</option>
+            </select><br />
+            <br />
+            <button id="button">Submit</button>
+        </form>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+    <script src="/assets/app.js"></script>
+    
+</body>
+</html>
