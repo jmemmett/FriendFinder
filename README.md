@@ -8,7 +8,8 @@ The survey has 10 questions of your choosing.
 
 Each answer is on a scale of 1 to 5 (based on how much the user agrees or disagrees with a question).
 
+After submitting the survey, the user will be presented with a friend suggestion from within an array of 10 characters that is stored inside the friend.js file.
+
 ************************************************************************************************************************
 FIGURE OUT HOW TO MAKE THE DEFAULT ROUTE DISPLAY THE HOME.HTML PAGE REGARDLESS OF WHAT URL IS ENTERED BEYOND THE ROOT!!!
-FIGURE OUT HOW TO DISPLAY THE MODAL WITH THE NAME AND THE PHOTO OF THE FRIEND THE PROGRAM IS SUGGESTING TO TH USER!!!
 ************************************************************************************************************************
